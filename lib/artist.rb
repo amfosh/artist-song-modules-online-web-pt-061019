@@ -37,7 +37,7 @@ class Artist
     songs.each { |song| add_song(song) }
   end
   
-  extend Paramble::ClassMethods
+  extend Paramable::ClassMethods
 
   # def to_param
   #   name.downcase.gsub(' ', '-')
