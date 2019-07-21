@@ -30,6 +30,8 @@ class Song
   def artist=(artist)
     @artist = artist
   end
+  
+  extend Paramble::ClassMethods
 
   # def to_param
   #   name.downcase.gsub(' ', '-')
