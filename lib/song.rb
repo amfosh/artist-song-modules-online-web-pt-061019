@@ -31,7 +31,7 @@ class Song
     @artist = artist
   end
   
-  extend Paramble::ClassMethods
+  extend Paramable::ClassMethods
 
   # def to_param
   #   name.downcase.gsub(' ', '-')
